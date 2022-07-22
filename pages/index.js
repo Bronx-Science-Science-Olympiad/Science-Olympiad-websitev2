@@ -1,10 +1,15 @@
 import Head from 'next/head'
-
+import Hero from "../components/Hero";
+import Layout from "../components/Layout";
 
 export default function Home() {
   return (
-    <div>
-      <h1 className='font-slab'>hello</h1>
-    </div>
-  )
+    <>
+      <Head>
+        <title>Bronx Science Science Olympiad</title>
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
+      <Hero />
+    </>
+  );
 }
