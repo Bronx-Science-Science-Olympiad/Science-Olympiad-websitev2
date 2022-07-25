@@ -5,7 +5,7 @@ const Layout = ({ children }) => {
   return (
     <div>
       <Nav />
-      <div className="h-screen px-24 py-16 m-auto">{children}</div>
+      <div className="h-screen px-24 py-16">{children}</div>
     </div>
   );
 };
