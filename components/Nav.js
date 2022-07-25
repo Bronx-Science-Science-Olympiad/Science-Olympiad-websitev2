@@ -2,9 +2,9 @@ import Link from "next/link";
 
 const Nav = () => {
   return (
-    <div className="bg-black font-sans font-bold flex items-center px-16 py-8 sticky top-0 left-0">
-      <h1 className="m-auto">SCIENCE OLYMPIAD</h1>
-      <ul className="flex space-x-5 m-auto">
+    <div className="sticky top-0 left-0 flex items-center px-24 py-8 font-sans font-bold bg-black">
+      <h1 className="mr-auto">BxSciOly</h1>
+      <ul className="flex space-x-5">
         <Link href="/">
           <li>Home</li>
         </Link>

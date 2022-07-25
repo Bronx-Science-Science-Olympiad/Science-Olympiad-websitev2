@@ -5,7 +5,7 @@ const Layout = ({ children }) => {
   return (
     <div>
       <Nav />
-      <div className="m-auto w-[56.5%] h-screen">{children}</div>
+      <div className="h-screen px-24 py-16 m-auto">{children}</div>
     </div>
   );
 };
