@@ -5,7 +5,20 @@ module.exports = {
     "./components/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+
+    extend: {
+      rotate: {
+        '3': '3deg'
+      },
+    },
+    fontFamily: {
+      sans: ['Josefin Sans', 'sans-serif'],
+      slab: ['Josefin Slab', 'serif']
+    },
+
   },
   plugins: [],
 }
+
+
+
