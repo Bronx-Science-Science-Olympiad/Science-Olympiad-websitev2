@@ -1,8 +1,9 @@
+import { NextPage } from 'next';
 import Head from 'next/head'
 import Hero from "../components/Hero";
 import Layout from "../components/Layout";
 
-export default function Home() {
+const Home: NextPage = () => {
   return (
     <>
       <Head>
@@ -13,3 +14,5 @@ export default function Home() {
     </>
   );
 }
+
+export default Home;
