@@ -1,7 +1,7 @@
 import React from "react";
-import Nav from "./Nav";
+import Nav from "./nav";
 
-const Layout = ({ children }) => {
+const Layout: React.FC<React.PropsWithChildren<{}>> = ({ children }) => {
   return (
     <div>
       <Nav />

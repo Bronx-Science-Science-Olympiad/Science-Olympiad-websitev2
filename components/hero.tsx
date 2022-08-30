@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { BsArrowRight } from "react-icons/bs";
 import TextTransition from "react-text-transition";
 
-const Hero = () => {
+const Hero: React.FC = () => {
   const [index, setIndex] = useState(0);
 
   const TEXTS = [

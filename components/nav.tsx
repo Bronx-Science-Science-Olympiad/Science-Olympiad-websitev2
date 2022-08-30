@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-const Nav = () => {
+const Nav: React.FC = () => {
   return (
     <div className="sticky top-0 left-0 flex items-center px-24 py-8 font-sans text-2xl font-light bg-black">
       <h1 className="mr-auto">BxSciOly</h1>
