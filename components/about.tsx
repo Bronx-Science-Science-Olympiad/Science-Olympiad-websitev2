@@ -4,7 +4,7 @@ import Image from "next/image";
 
 const About: React.FC = () => {
   return (
-    <div className="flex flex-col items-center justify-center mt-24">
+    <div className="flex flex-col items-center justify-center">
       <h1 className="mb-12 font-sans font-bold text-yellow-400 text-7xl">
         ABOUT US
       </h1>
@@ -26,11 +26,11 @@ const About: React.FC = () => {
                 collaborative communities in Bronx Science!
               </li>
             </ul>
-            <Image src={List} />
+            <Image src={List} alt="List of things you can do in BSSO!" />
           </div>
         </div>
         <div>
-          <Image src={Search} />
+          <Image src={Search} alt="curious guy doin' curious things" />
         </div>
       </div>
     </div>
