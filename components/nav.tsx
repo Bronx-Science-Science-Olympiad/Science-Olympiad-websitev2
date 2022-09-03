@@ -2,7 +2,7 @@ import Link from "next/link";
 
 const Nav: React.FC = () => {
   return (
-    <div className="sticky top-0 left-0 flex items-center px-24 py-8 font-sans text-2xl font-light bg-black">
+    <div className="sticky top-0 left-0 z-50 flex items-center px-24 py-6 text-2xl font-light bg-black ont-sans p">
       <h1 className="mr-auto">BxSciOly</h1>
       <ul className="flex space-x-7">
         <Link href="/">

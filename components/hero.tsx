@@ -8,10 +8,10 @@ const Hero: React.FC = () => {
   const [index, setIndex] = useState(0);
 
   const TEXTS = [
-    "Exploring the world of science",
+    "Exploring the world of science!",
     "SCIOLY TO THE MOON!",
     "Established in 2010",
-    "5x States qualifiers",
+    "5x States qualifiers!",
     "It's about time, It's about power!",
     "We stay hungry, we devour!",
   ];
@@ -22,8 +22,8 @@ const Hero: React.FC = () => {
   }, []);
 
   return (
-    <>
-      <div className="absolute top-0 left-0 w-full h-full opacity-40 -z-10">
+    <div className="h-screen">
+      <div className="absolute top-0 left-0 w-full h-full opacity-20 -z-10">
         <Image
           layout="responsive"
           src={Background}
@@ -34,7 +34,7 @@ const Hero: React.FC = () => {
           objectPosition={"center"}
         />
       </div>
-      <div>
+      <div className="mb-12">
         <h1 className="mb-2 text-4xl">Bronx High School of Science</h1>
         <h1 className="mb-4 font-sans font-bold text-yellow-400 text-7xl">
           SCIENCE OLYMPIAD
@@ -58,7 +58,7 @@ const Hero: React.FC = () => {
           <BsArrowRight className="text-[#F8CA55] ml-4 text-2xl" />
         </div>
       </div>
-    </>
+    </div>
   );
 };
 
