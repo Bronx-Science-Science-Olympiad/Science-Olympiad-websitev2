@@ -4,8 +4,8 @@ import Image from "next/image";
 
 const About: React.FC = () => {
   return (
-    <div className="flex flex-col items-center justify-center">
-      <h1 className="mb-12 font-sans text-6xl font-bold text-yellow-400">
+    <div className="flex flex-col items-center justify-center mt-24">
+      <h1 className="mb-12 font-sans font-bold text-yellow-400 text-7xl">
         ABOUT US
       </h1>
       <p className="px-32 mb-24 text-3xl text-center font-slab">

@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { BsArrowRight } from "react-icons/bs";
 import TextTransition from "react-text-transition";
 import Image from "next/image";
-import Background from "../public/landing.jpeg";
+import Background from "../public/landing.png";
 
 const Hero: React.FC = () => {
   const [index, setIndex] = useState(0);
@@ -23,20 +23,19 @@ const Hero: React.FC = () => {
 
   return (
     <div className="h-screen">
-      <div className="absolute top-0 left-0 w-full h-full opacity-20 -z-10">
+      <div className="absolute top-0 left-0 w-full h-full opacity-60 -z-10">
         <Image
           layout="responsive"
           src={Background}
-          alt="spaceship"
+          alt="rocket"
           priority
-          quality={30}
           objectFit="cover"
           objectPosition={"center"}
         />
       </div>
-      <div className="mb-12">
-        <h1 className="mb-2 text-4xl">Bronx High School of Science</h1>
-        <h1 className="mb-4 font-sans font-bold text-yellow-400 text-7xl">
+      <div className="py-8">
+        <h1 className="mb-4 text-5xl">Bronx High School of Science</h1>
+        <h1 className="mb-4 font-sans font-bold text-yellow-400 text-8xl">
           SCIENCE OLYMPIAD
         </h1>
         <TextTransition className="mb-8 text-3xl text-white font-slab">
