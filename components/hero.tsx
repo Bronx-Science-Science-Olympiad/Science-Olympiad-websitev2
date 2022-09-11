@@ -22,13 +22,14 @@ const Hero: React.FC = () => {
   }, []);
 
   return (
-    <div className="h-screen">
+    <div className="h-screen px-24 py-16">
       <div className="absolute top-0 left-0 w-full h-full opacity-60 -z-10">
         <Image
           layout="responsive"
           src={Background}
           alt="rocket"
           priority
+          quality={3}
           objectFit="cover"
           objectPosition={"center"}
         />
