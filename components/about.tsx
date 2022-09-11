@@ -41,11 +41,39 @@ const About: React.FC = () => {
       <div className="flex items-center justify-start">
         <div className="relative mr-auto group mt-52 ">
           <div className="absolute h-[600px] -inset-8 bg-gradient-to-r from-cyan-600 to-gray-700 rounded-xl blur-md opacity-75 group-hover:opacity-100 transition duration-200 group-hover:duration-200" />
-          <img src="/assets/about/scioly2.png" className="h-[600px] relative" />
+          <img
+            src="/assets/about/scioly2.png"
+            className="h-[600px] w-auto relative"
+          />
         </div>
         <div className="relative group ">
           <div className="absolute h-[550px] -inset-8 bg-gradient-to-r from-gray-700 to-cyan-600 rounded-xl blur-md opacity-75 group-hover:opacity-100 transition duration-200 group-hover:duration-200" />
-          <img src="/assets/about/scioly1.png" className="h-[550px] relative" />
+          <img
+            src="/assets/about/scioly1.png"
+            className="h-[550px] w-auto relative mb-16"
+          />
+        </div>
+      </div>
+      <div className="flex justify-end">
+        {" "}
+        <div className="px-32 text-right">
+          <h1 className="mb-4 text-4xl text-yellow-400">To the moon!</h1>
+          <ul
+            className="mb-12 text-xl list-disc font-slab"
+            style={{ direction: "rtl" }}
+          >
+            <li className="mb-3">
+              We have over 200 members
+              and over 20 events that cover all the branches of science
+            </li>
+            <li className="mb-3">
+              Having just qualified for States in 2018, our team has now climbed
+              from 40th place to 11th
+            </li>
+            <li className="mb-3">
+              We won first place at Regionals in 2020 and 11th place in States
+            </li>
+          </ul>
         </div>
       </div>
     </>
